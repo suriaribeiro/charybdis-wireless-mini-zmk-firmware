@@ -153,7 +153,7 @@
             bindings = <
 &trans          &kp LA(LC(LS(Z)))  &kp LA(LC(LS(E)))  &kp LA(LC(LS(A)))  &kp LA(LC(LS(S)))  &kp LA(LC(LS(B)))    &none   &none   &none  &none  &none  &trans
 &kp LC(LA(E))   &kp LEFT           &kp DOWN           &kp UP             &kp RIGHT          &kp LCTRL            &none   &none   &none  &none  &none  &trans
-&kp LS(DELETE)  &kp LA(LS(A))      &kp LA(KP_N1)      &kp LA(KP_N2)      &kp LA(KP_N3)      &none                &none   &none   &none  &none  &none  &none
+&kp LS(DELETE)  &kp RC(Z)          &kp RC(X)          &kp RC(C)          &kp RC(P)          &none                &none   &none   &none  &none  &none  &none
                                                       &trans             &trans             &trans               &trans  &trans
             >;
         };
@@ -171,7 +171,7 @@
             bindings = <
 &none    &msc MOVE_LEFT  &msc MOVE_UP    &mmv MOVE_UP    &msc MOVE_DOWN   &msc MOVE_RIGHT    &msc SCRL_UP      &none            &none         &none         &none          &none
 &kp TAB  &mkp MB4        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5           &msc SCRL_DOWN    &kp RIGHT_SHIFT  &kp RCTRL     &kp LEFT_ALT  &kp LCMD       &none
-&none    &kp LC(Z)   &kp LC(X)    &kp LC(C)   &kp LC(P)   &mkp MCLK          &none  &none      &none            &none         &none         &none
+&none    &kp RC(Z)   &kp RC(X)    &kp RC(C)   &kp RC(P)   &mkp MCLK          &none  &none      &none            &none         &none         &none
                                          &trans          &trans           &trans             &mkp RCLK         &mkp LCLK
             >;
         };

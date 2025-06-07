@@ -236,10 +236,10 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - SHRED
-  - SHOW TAGS
-  - REJECT
-  - PENDING
-  - ACCEPT
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ P
   - ''
   - ''
   - ''
