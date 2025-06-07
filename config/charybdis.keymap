@@ -88,7 +88,7 @@
 // ╭────────────────┬──────────────┬─────────────────────────────┬──────────────────────────────────┬──────────────────────┬────────╮  ╭────────────────┬─────────────────────────┬──────────────────────────────────────┬────────────────────────────────────┬────────────────────────┬──────────────╮
     &kp ESC          &kp Q           &kp W                          &kp E                              &kp R                  &kp T       &kp Y             &kp U                   &kp I                                   &kp O                                &kp P                    &kp BACKSPACE
 // ├────────────────┼──────────────┼─────────────────────────────┼──────────────────────────────────┼──────────────────────┼────────┤  ├────────────────┼─────────────────────────┼──────────────────────────────────────┼────────────────────────────────────┼────────────────────────┼──────────────┤
-    &hm_left LCMD TAB  &lt 3 A      &hm_left LEFT_ALT S            &hm_left LCTRL D                   &hm_left LEFT_SHIFT F  &kp G       &kp H             &hm_right RIGHT_SHIFT J  &hm_right RCTRL K                       &lt 3 L                              &hm_right RCMD SEMICOLON &kp SQT
+    &hm_left LCMD TAB  &lt 3 A      &hm_left LEFT_ALT S            &hm_left LCTRL D                   &hm_left LEFT_SHIFT F  &kp G       &kp H             &hm_right RIGHT_SHIFT J  &hm_right RCTRL K                       &lt 7 L                              &hm_right RCMD SEMICOLON &kp SQT
 // ├────────────────┼──────────────┼─────────────────────────────┼──────────────────────────────────┼──────────────────────┼────────┤  ├────────────────┼─────────────────────────┼──────────────────────────────────────┼────────────────────────────────────┼────────────────────────┼──────────────┤
     &kp LSHFT    &kp Z        &hm_left LC(LA(LEFT_SHIFT)) X  &hm_left LA(LC(LG(LEFT_SHIFT))) C  &kp V                  &kp B       &kp N             &kp M                   &hm_right LA(LC(LG(LEFT_SHIFT))) COMMA  &hm_right LC(LA(LEFT_SHIFT)) PERIOD  &kp SLASH                  &kp RSHFT
 // ╰────────────────┴──────────────┴─────────────────────────────┼──────────────────────────────────┼──────────────────────┼────────┤  ├────────────────┼─────────────────────────┼──────────────────────────────────────┴────────────────────────────────────┴────────────────────────┴──────────────╯
@@ -99,10 +99,10 @@
 
         NUM {
             bindings = <
-&trans   &none  &none  &none  &none          &none        &kp ASTRK  &hm F7 N7  &hm F8 N8  &hm F9 N9  &kp F10        &none
-&trans   &none  &none  &none  &none          &none        &kp MINUS  &hm F4 N4  &hm F5 N5  &hm F6 N6  &hm F11 PLUS   &trans
-&none    &none  &none  &none  &kp BACKSPACE  &kp SPACE    &td_equals &hm F1 N1  &hm F2 N2  &hm F3 N3  &hm F12 SLASH  &none
-                       &none  &none          &trans       &kp DOT    &kp N0
+&trans  &kp AT             &kp N7  &kp N8  &kp N9  &kp EQUAL  &kp DOLLAR  &euro           &kp UP_ARROW    &trans           &trans  &trans
+&trans  &kp DOUBLE_QUOTES  &kp N4  &kp N5  &kp N6  &kp PLUS   &email      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &kp N0             &kp N1  &kp N2  &kp N3  &kp DOT    &email      &trans          &trans          &trans           &trans  &trans
+                                   &trans  &trans  &trans     &trans      &trans
             >;
         };
 
