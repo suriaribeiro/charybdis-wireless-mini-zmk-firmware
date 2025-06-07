@@ -320,10 +320,10 @@ layers:
   - LCMD
   - ''
   - ''
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ P
   - Mid CLK
   - ''
   - ''
