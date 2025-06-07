@@ -22,7 +22,7 @@ layers:
   - H
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RCTRL}
-  - {t: L, h: RIGHT ALT}
+  - {t: L, h: SYM}
   - {t: ;, h: RCMD}
   - ''''
   - LSHFT
@@ -301,7 +301,7 @@ layers:
   - MOVE UP
   - WHEEL U
   - WHEEL R
-  - ''
+  - '&msc SCRL_UP'
   - ''
   - ''
   - ''
@@ -313,7 +313,7 @@ layers:
   - MOVE D
   - MOVE R
   - FWD
-  - ''
+  - '&msc SCRL_DOWN'
   - RIGHT SHIFT
   - RCTRL
   - LEFT ALT
@@ -334,8 +334,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RETURN
-  - {type: held}
+  - R CLK
+  - {t: L CLK, type: held}
   SLOW:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
