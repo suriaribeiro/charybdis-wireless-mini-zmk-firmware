@@ -41,7 +41,7 @@ layers:
   - '&td_space'
   - '&td_bs'
   - {t: BACK SPACE, h: EXTRAS}
-  - {t: RETURN, h: MOUSE}
+  - {t: RETURN, h: NUM}
   NUM:
   - {t: ▽, type: trans}
   - '@'
@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   NAV:
   - ''
   - ''
