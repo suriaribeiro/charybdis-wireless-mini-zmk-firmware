@@ -81,6 +81,22 @@
 // #define SLOW    8
 // #define SCROLL  9
 
+   macros {
+        euro: euro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(NUMBER_0) &kp LA(NUMBER_1) &kp LA(NUMBER_2) &kp LA(N8)>;
+            label = "EURO";
+        };
+
+        email: email {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp U &kp R &kp I &kp A &kp R &kp I &kp B &kp E &kp I &kp R &kp O &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "EMAIL";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
         BASE {
