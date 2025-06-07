@@ -88,7 +88,7 @@
 // ╭────────────────┬──────────────┬─────────────────────────────┬──────────────────────────────────┬──────────────────────┬────────╮  ╭────────────────┬─────────────────────────┬──────────────────────────────────────┬────────────────────────────────────┬────────────────────────┬──────────────╮
     &kp ESC          &kp Q           &kp W                          &kp E                              &kp R                  &kp T       &kp Y             &kp U                   &kp I                                   &kp O                                &kp P                    &kp BACKSPACE
 // ├────────────────┼──────────────┼─────────────────────────────┼──────────────────────────────────┼──────────────────────┼────────┤  ├────────────────┼─────────────────────────┼──────────────────────────────────────┼────────────────────────────────────┼────────────────────────┼──────────────┤
-    &hm_left LCMD TAB  &lt 3 A      &hm_left LEFT_ALT S            &hm_left LCTRL D                   &hm_left LEFT_SHIFT F  &kp G       &kp H             &hm_right RIGHT_SHIFT J  &hm_right RCTRL K                       &hm_right RIGHT_ALT L                &hm_right RCMD SEMICOLON &kp SQT
+    &hm_left LCMD TAB  &lt 3 A      &hm_left LEFT_ALT S            &hm_left LCTRL D                   &hm_left LEFT_SHIFT F  &kp G       &kp H             &hm_right RIGHT_SHIFT J  &hm_right RCTRL K                       &lt 3 L                              &hm_right RCMD SEMICOLON &kp SQT
 // ├────────────────┼──────────────┼─────────────────────────────┼──────────────────────────────────┼──────────────────────┼────────┤  ├────────────────┼─────────────────────────┼──────────────────────────────────────┼────────────────────────────────────┼────────────────────────┼──────────────┤
     &kp LSHFT    &kp Z        &hm_left LC(LA(LEFT_SHIFT)) X  &hm_left LA(LC(LG(LEFT_SHIFT))) C  &kp V                  &kp B       &kp N             &kp M                   &hm_right LA(LC(LG(LEFT_SHIFT))) COMMA  &hm_right LC(LA(LEFT_SHIFT)) PERIOD  &kp SLASH                  &kp RSHFT
 // ╰────────────────┴──────────────┴─────────────────────────────┼──────────────────────────────────┼──────────────────────┼────────┤  ├────────────────┼─────────────────────────┼──────────────────────────────────────┴────────────────────────────────────┴────────────────────────┴──────────────╯
@@ -153,10 +153,10 @@
 
         MOUSE {
             bindings = <
-&none    &msc MOVE_LEFT  &msc MOVE_UP    &mmv MOVE_UP    &msc MOVE_DOWN   &msc MOVE_RIGHT    &none  &none            &none      &none         &none          &none
-&kp TAB  &mkp MB4        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5           &none  &kp RIGHT_SHIFT  &kp RCTRL  &kp LEFT_ALT  &kp LCMD  &none
-&none    &kp C_AC_UNDO   &kp C_AC_CUT    &kp C_AC_COPY   &kp C_AC_PASTE   &mkp MCLK          &none  &none            &none      &none         &none          &none
-                                         &trans          &trans           &trans             &kp RETURN              &trans
+&none    &msc MOVE_LEFT  &msc MOVE_UP    &mmv MOVE_UP    &msc MOVE_DOWN   &msc MOVE_RIGHT    &msc SCRL_UP      &none            &none         &none         &none          &none
+&kp TAB  &mkp MB4        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5           &msc SCRL_DOWN    &kp RIGHT_SHIFT  &kp RCTRL     &kp LEFT_ALT  &kp LCMD       &none
+&none    &kp C_AC_UNDO   &kp C_AC_CUT    &kp C_AC_COPY   &kp C_AC_PASTE   &mkp MCLK          &none  &none      &none            &none         &none         &none
+                                         &trans          &trans           &trans             &mkp RCLK         &mkp LCLK
             >;
         };
 
