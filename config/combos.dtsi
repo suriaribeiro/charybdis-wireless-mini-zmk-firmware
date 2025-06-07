@@ -8,13 +8,13 @@
             layers = <0>;
         };
 
-        MiddleClick {
-            bindings = <&mkp MCLK>;
+        RightClick {
+            bindings = <&mkp RCLK>;
             key-positions = <28 37>;
         };
 
-        RightClick {
-            bindings = <&mkp RCLK>;
+        LeftClick {
+            bindings = <&mkp LCLK>;
             key-positions = <16 37>;
         };
 
