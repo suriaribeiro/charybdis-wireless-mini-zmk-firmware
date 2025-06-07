@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   BASE:
-  - DEV TOOLS
+  - ESC
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - L_BASE L_PHOTO L_GAME
+  - BACK SPACE
   - {t: TAB, h: LCMD}
   - {t: A, h: SYM}
   - {t: S, h: LEFT ALT}
@@ -22,10 +22,10 @@ layers:
   - H
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RCTRL}
-  - {t: L, h: RIGHT ALT}
+  - {t: L, h: SYM}
   - {t: ;, h: RCMD}
-  - DEL
-  - SEARCH
+  - ''''
+  - LSHFT
   - Z
   - {t: X, h: MEH}
   - {t: C, h: HYPER}
@@ -35,13 +35,13 @@ layers:
   - M
   - {t: ',', h: HYPER}
   - {t: ., h: MEH}
-  - ~/
-  - CLIP HIST
+  - /
+  - RSHFT
   - SCRL SLOW
-  - L CLK
-  - '&td_bs'
-  - {t: RETURN, h: MOUSE}
   - '&td_space'
+  - '&td_bs'
+  - {t: BACK SPACE, h: EXTRAS}
+  - {t: RETURN, h: MOUSE}
   NUM:
   - {t: ▽, type: trans}
   - ''
@@ -292,7 +292,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   MOUSE:
   - ''
@@ -301,7 +301,7 @@ layers:
   - MOVE UP
   - WHEEL U
   - WHEEL R
-  - ''
+  - '&msc SCRL_UP'
   - ''
   - ''
   - ''
@@ -313,7 +313,7 @@ layers:
   - MOVE D
   - MOVE R
   - FWD
-  - ''
+  - '&msc SCRL_DOWN'
   - RIGHT SHIFT
   - RCTRL
   - LEFT ALT
@@ -334,8 +334,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: RETURN, type: held}
-  - {t: ▽, type: trans}
+  - R CLK
+  - {t: L CLK, type: held}
   SLOW:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -424,10 +424,13 @@ combos:
 - p: [17, 18]
   k: CAPS WORD
   l: [BASE]
+- p: [37, 40]
+  k: '-'
+  l: [NUM, NAV, NAV, SYM, BASE, GAME]
 - p: [28, 37]
-  k: Mid CLK
-- p: [16, 37]
   k: R CLK
+- p: [16, 37]
+  k: L CLK
 - p: [20, 21]
   k: )
   l: [SYM]
