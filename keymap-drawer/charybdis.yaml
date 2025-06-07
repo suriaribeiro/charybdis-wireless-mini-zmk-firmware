@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   BASE:
-  - DEV TOOLS
+  - ESC
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - L_BASE L_PHOTO L_GAME
+  - BACK SPACE
   - {t: TAB, h: LCMD}
   - {t: A, h: SYM}
   - {t: S, h: LEFT ALT}
@@ -24,8 +24,8 @@ layers:
   - {t: K, h: RCTRL}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RCMD}
-  - DEL
-  - SEARCH
+  - ''''
+  - LSHFT
   - Z
   - {t: X, h: MEH}
   - {t: C, h: HYPER}
@@ -35,13 +35,13 @@ layers:
   - M
   - {t: ',', h: HYPER}
   - {t: ., h: MEH}
-  - ~/
-  - CLIP HIST
+  - /
+  - RSHFT
   - SCRL SLOW
-  - L CLK
-  - '&td_bs'
-  - {t: RETURN, h: MOUSE}
   - '&td_space'
+  - '&td_bs'
+  - {t: BACK SPACE, h: EXTRAS}
+  - {t: RETURN, h: MOUSE}
   NUM:
   - {t: ▽, type: trans}
   - ''
@@ -292,7 +292,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   MOUSE:
   - ''
@@ -334,8 +334,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: RETURN, type: held}
-  - {t: ▽, type: trans}
+  - RETURN
+  - {type: held}
   SLOW:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
