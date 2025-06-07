@@ -8,6 +8,13 @@
             layers = <0>;
         };
 
+        minus {
+            timeout-ms = <50>;
+            key-positions = <37 40>; // KP: VB
+            bindings = <&kp MINUS>;
+            layers = <1 2 2 3 0 4>;
+        };
+
         RightClick {
             bindings = <&mkp RCLK>;
             key-positions = <28 37>;
